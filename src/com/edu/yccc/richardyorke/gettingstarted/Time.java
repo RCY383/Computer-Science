@@ -5,13 +5,15 @@ package com.edu.yccc.richardyorke.gettingstarted;
 
 /**
  * @author Richard Yorke
- *
+ * Spring 2018 semester
+ * CIS 174- Algorithms in Programming
+ * Instructor: Michael Bourgeious
  */
+
+// In this example, I am using String concatenate string objects together.
 public class Time {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int hours = 365 * 24;
