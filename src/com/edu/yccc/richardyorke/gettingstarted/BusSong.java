@@ -9,6 +9,8 @@ package com.edu.yccc.richardyorke.gettingstarted;
  * CIS 174- Algorithms in Programming
  * Instructor: Michael Bourgeious
  */
+
+// I am using an example of Strings as paramters to methods in this Children's song.
 public class BusSong {
 
 	
