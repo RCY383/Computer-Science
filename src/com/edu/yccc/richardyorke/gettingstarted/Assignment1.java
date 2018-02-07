@@ -7,6 +7,7 @@ package com.edu.yccc.richardyorke.gettingstarted;
  * @author Richard Yorke
  * Spring 2018 semester
  * CIS 174- Algorithms in Programming
+ * Instructor: Michael Bourgeious
  * 
  */
 
