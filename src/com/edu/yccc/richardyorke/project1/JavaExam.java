@@ -13,7 +13,7 @@ import java.util.*;
 public class JavaExam {
 
 
-	
+
 	public static void main(String[] args) {
 		Scanner console = new Scanner(System.in);
 		System.out.println();
@@ -21,7 +21,7 @@ public class JavaExam {
 		;
 		console.nextLine();
 		System.out.println();
-		
+
 		System.out.print("Enter your last name: ");
 		console.nextLine();
 		System.out.println();
@@ -29,11 +29,11 @@ public class JavaExam {
 		console.nextLine();
 		System.out.println();
 		System.out.println("The following questions will test your knowledge in Java. Good luck to you on your Exam and try to do your bestRich!");
-		
-		
-		
-	
+
+
+
+
 	}
-	
+
 
 }
