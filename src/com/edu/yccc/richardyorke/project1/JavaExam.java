@@ -15,9 +15,10 @@ public class JavaExam {
 
 	
 	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
 		System.out.println();
 		System.out.print("Enter your first name: ");
-		Scanner console = new Scanner(System.in);
+		;
 		console.nextLine();
 		System.out.println();
 		
@@ -27,6 +28,8 @@ public class JavaExam {
 		System.out.print("Enter your student ID Number: ");
 		console.nextLine();
 		System.out.println();
+		System.out.println("The following questions will test your knowledge in Java. Good luck to you on your Exam and try to do your bestRich!");
+		
 		
 		
 	
