@@ -15,6 +15,7 @@ public class JavaExam {
 
 
 	public static void main(String[] args) {
+		Question q = new Question();
 		Scanner console = new Scanner(System.in);
 		System.out.println();
 		System.out.print("Enter your first name: ");
@@ -28,12 +29,18 @@ public class JavaExam {
 		System.out.print("Enter your student ID Number: ");
 		console.nextLine();
 		System.out.println();
-		System.out.println("The following questions will test your knowledge in Java. Good luck to you on your Exam and try to do your bestRich!");
+		System.out.println("The following questions will test your knowledge in Java. Good luck to you on your Exam and try to do your best!");
 
+		System.out.println();
 
+		List<Questions> ListQuestions =  q.loadQuestions();
 
-
+		for (Questions question:ListQuestions ) {
+			System.out.println(question.getQuestions());
+			console.nextLine();
+		}
 	}
-
+	
 
 }
+
