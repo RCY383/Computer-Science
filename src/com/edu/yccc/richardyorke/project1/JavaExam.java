@@ -15,7 +15,7 @@ public class JavaExam {
 
 
 	public static void main(String[] args) {
-		Question q = new Question();
+		CreateQuestions q = new CreateQuestions();
 		Scanner console = new Scanner(System.in);
 		System.out.println();
 		System.out.print("Enter your first name: ");
@@ -33,7 +33,7 @@ public class JavaExam {
 
 		System.out.println();
 
-		List<Questions> ListQuestions =  q.loadQuestions();
+		List<Questions> ListQuestions =  CreateQuestions.loadQuestions();
 
 		for (Questions question:ListQuestions ) {
 			System.out.println(question.getQuestions());

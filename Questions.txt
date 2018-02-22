@@ -4,7 +4,7 @@ What is the numerical range of a char data type in Java?
 Which of these classes is superclass of every call in Java?
 When does Exceptions in Java arises in code sequence?
 Which of these keywords must be used to monitor for exceptions?
-Which of these package us used for text formatting in Java programming language?
+Which of these package is used for text formatting in Java programming language?
 Which of these method of String class is used to obtain character at specified?
 What is the process of defining a method in subclass having same name & type signature in its superclass?
 A class member declared protected becomes member of subclass of which type?
