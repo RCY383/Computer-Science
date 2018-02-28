@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.edu.yccc.richardyorke.project1;
 
 import java.io.File;
@@ -15,33 +13,33 @@ import java.util.Scanner;
  */
 public class CreateQuestions {
 
-	
 
-		public static List<Questions> loadQuestions(){
 
-			List<Questions> question = new ArrayList<Questions>();
-			
+	public static List<Questions> loadQuestions(){
 
-			File fileName = new File("Questions.txt");
-			Scanner scan = null;
+		List<Questions> question = new ArrayList<Questions>();
 
-			
-			try {
-				scan = new Scanner(fileName);
 
-				while(scan.hasNextLine())
-				{
-					Questions q = new Questions ();
-					q.setQuestions(scan.nextLine());
-					question.add(q);
-				}
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
+		File fileName = new File("Questions.txt");
+		Scanner scan = null;
+
+
+		try {
+			scan = new Scanner(fileName);
+
+			while(scan.hasNextLine())
+			{
+				Questions q = new Questions ();
+				q.setQuestions(scan.nextLine());
+				question.add(q);
 			}
-			
-			return question;
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 
-		}
-		
-		}
+		return question;
+
+	}
+
+}
 

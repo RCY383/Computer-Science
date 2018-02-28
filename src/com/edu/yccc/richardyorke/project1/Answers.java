@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.edu.yccc.richardyorke.project1;
 
 /**
@@ -12,6 +10,7 @@ package com.edu.yccc.richardyorke.project1;
 public class Answers {
 
 	String answers;
+	public int getAnswers;
 
 	public String getAnswers () {
 		return answers;
@@ -21,7 +20,10 @@ public class Answers {
 		this.answers = answers;
 	}
 
-}
+	
+	}
+
+
 
 
 

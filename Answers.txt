@@ -1,0 +1,10 @@
+A. Object Oriented Programming B. out of print C. Out of Production D. out of pocket
+A. True & False B. 0 & 1 C. Any integer value D. true
+A. abstract B. extends C. abstracts and extends D. none of the above
+A. String class B. Object class C. Abstract class D. ArrayList class
+A. Compilation Time B. can occur any time C. Runtime D. none of the above
+A. finally B. try C. throw D. catch
+A. java.awt B. java.awt.text C. java.io D. java.text
+A. char() B. Charat() C. charAT() D. charat ()
+A. Method overloading B. Method overriding C. Method hiding D. none of the above
+A. public member B. Static member C. protected member D. private member

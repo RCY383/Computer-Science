@@ -11,6 +11,7 @@ import java.util.*;
  * Instructor: Michael Bourgeious
  */
 public class JavaExam {
+	
 
 
 
@@ -33,14 +34,24 @@ public class JavaExam {
 
 		System.out.println();
 
-		List<Questions> ListQuestions =  CreateQuestions.loadQuestions();
+		List<Questions> ListQuestions = CreateQuestions.loadQuestions();
 
 		for (Questions question:ListQuestions ) {
 			System.out.println(question.getQuestions());
-			console.nextLine();
+			
+			
+			List<Answers> ListAnswers = MultipleChoiceAnswers.loadAnswers();
+			
+			for (Answers answer:ListAnswers ) {
+				System.out.println(answer.getAnswers());
+				console.nextDouble();
+				
+			}
+			
 		}
+		console.close();
 	}
-	
+
 
 }
 

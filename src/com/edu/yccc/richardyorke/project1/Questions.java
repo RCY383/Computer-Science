@@ -11,9 +11,12 @@ public class Questions {
 	public void setQuestions (String questions) {
 		 this.questions = questions;
 	}
-		
+
+	
 	}
 
+
+	
 
 
 
