@@ -9,6 +9,7 @@ public class App {
 	public void loadExams() {
 		exams.add(new GeographyExam());
 		exams.add( new NetworkExam());
+		exams.add( new JavaExam());
 	}
 	public void runExams() {
 		for( Exam exam: exams) {

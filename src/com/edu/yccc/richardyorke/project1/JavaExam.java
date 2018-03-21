@@ -2,6 +2,12 @@ package com.edu.yccc.richardyorke.project1;
 
 import java.util.*;
 
+import com.edu.yccc.richardyorke.ExamInterface.Exam;
+import com.edu.yccc.richardyorke.project1.Answers;
+import com.edu.yccc.richardyorke.project1.CreateQuestions;
+import com.edu.yccc.richardyorke.project1.MultipleChoiceAnswers;
+import com.edu.yccc.richardyorke.project1.Questions;
+
 
 
 /**
@@ -10,7 +16,7 @@ import java.util.*;
  * CIS 174- Algorithms in Programming
  * Instructor: Michael Bourgeious
  */
-public class JavaExam {
+public class JavaExam implements Exam {
 	
 
 
@@ -44,12 +50,42 @@ public class JavaExam {
 			
 			for (Answers answer:ListAnswers ) {
 				System.out.println(answer.getAnswers());
-				console.nextDouble();
+				console.next();
 				
 			}
 			
 		}
 		console.close();
+	}
+
+	@Override
+	public void TakeExam() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void questions() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void answers() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public float calculateScore() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void ExamResults() {
+		// TODO Auto-generated method stub
+		
 	}
 
 
