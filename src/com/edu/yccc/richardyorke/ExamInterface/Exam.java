@@ -2,6 +2,7 @@
  * 
  */
 package com.edu.yccc.richardyorke.ExamInterface;
+import java.util.List;
 
 /**
  * @author Richard Yorke
@@ -10,11 +11,12 @@ package com.edu.yccc.richardyorke.ExamInterface;
  * Michael Bourgeois
  *
  */
-public interface Exams {
+public interface Exam {
 	public void TakeExam();
 	public void questions();
 	public void answers();
-	public void calculateScore();
+	public float calculateScore();
 	public void ExamResults();
+	
 
 }
