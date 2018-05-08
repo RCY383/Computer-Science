@@ -6,11 +6,11 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.awt.Component;
-import javax.swing.Box;
+import java.awt.CardLayout;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JSeparator;
 import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 
 public class TheatreSetup extends JFrame {
 
@@ -37,86 +37,87 @@ public class TheatreSetup extends JFrame {
 	 */
 	public TheatreSetup() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(600, 600, 600, 600);
+		setBounds(300, 400, 600, 600);
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBorder(new EmptyBorder(300, 300, 600, 600));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		btnNewButton.setBounds(30, 101, 117, 25);
-		contentPane.add(btnNewButton);
+		JLabel lblTheatreSetup = new JLabel("Theatre 4 Setup of Tables ");
+		lblTheatreSetup.setFont(new Font("DejaVu Math TeX Gyre", Font.BOLD, 20));
+		lblTheatreSetup.setBounds(134, 24, 302, 59);
+		contentPane.add(lblTheatreSetup);
 		
-		JButton btnNewButton_1 = new JButton("New button");
-		btnNewButton_1.setBounds(184, 208, 117, 25);
-		contentPane.add(btnNewButton_1);
+		JSeparator separator = new JSeparator();
+		separator.setBounds(27, 81, 559, 2);
+		contentPane.add(separator);
 		
-		JButton btnNewButton_2 = new JButton("New button");
-		btnNewButton_2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-			}
-		});
-		btnNewButton_2.setBounds(328, 208, 117, 25);
-		contentPane.add(btnNewButton_2);
+		JSeparator separator_1 = new JSeparator();
+		separator_1.setBounds(12, 363, 574, 12);
+		contentPane.add(separator_1);
 		
-		JButton btnNewButton_3 = new JButton("New button");
-		btnNewButton_3.setBounds(30, 362, 117, 25);
-		contentPane.add(btnNewButton_3);
+		JButton button = new JButton("4112");
+		button.setBounds(22, 387, 117, 48);
+		contentPane.add(button);
 		
-		JButton btnNewButton_4 = new JButton("New button");
-		btnNewButton_4.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		btnNewButton_4.setBounds(469, 208, 117, 25);
-		contentPane.add(btnNewButton_4);
+		JButton button_1 = new JButton("4212");
+		button_1.setBounds(170, 387, 117, 48);
+		contentPane.add(button_1);
 		
-		JButton btnNewButton_5 = new JButton("New button");
-		btnNewButton_5.setBounds(30, 208, 117, 25);
-		contentPane.add(btnNewButton_5);
+		JButton button_2 = new JButton("4312");
+		button_2.setBounds(312, 387, 117, 48);
+		contentPane.add(button_2);
 		
-		JButton btnNewButton_6 = new JButton("New button");
-		btnNewButton_6.setBounds(184, 362, 117, 25);
-		contentPane.add(btnNewButton_6);
+		JButton button_3 = new JButton("4412");
+		button_3.setBounds(456, 387, 117, 48);
+		contentPane.add(button_3);
 		
-		JButton btnNewButton_7 = new JButton("New button");
-		btnNewButton_7.setBounds(328, 362, 117, 25);
-		contentPane.add(btnNewButton_7);
+		JButton button_4 = new JButton("4113");
+		button_4.setBounds(22, 489, 117, 69);
+		contentPane.add(button_4);
 		
-		JButton btnNewButton_8 = new JButton("New button");
-		btnNewButton_8.setBounds(469, 362, 117, 25);
-		contentPane.add(btnNewButton_8);
+		JButton button_5 = new JButton("4213");
+		button_5.setBounds(170, 489, 117, 69);
+		contentPane.add(button_5);
 		
-		JButton btnNewButton_9 = new JButton("New button");
-		btnNewButton_9.setBounds(184, 508, 117, 25);
-		contentPane.add(btnNewButton_9);
+		JButton button_6 = new JButton("4313");
+		button_6.setBounds(312, 489, 117, 68);
+		contentPane.add(button_6);
 		
-		JButton btnNewButton_10 = new JButton("New button");
-		btnNewButton_10.setBounds(317, 508, 117, 25);
-		contentPane.add(btnNewButton_10);
+		JButton button_7 = new JButton("4413");
+		button_7.setBounds(456, 489, 117, 69);
+		contentPane.add(button_7);
 		
-		JButton btnNewButton_11 = new JButton("New button");
-		btnNewButton_11.setBounds(469, 508, 117, 25);
-		contentPane.add(btnNewButton_11);
+		JButton button_8 = new JButton("411");
+		button_8.setBounds(27, 109, 117, 108);
+		contentPane.add(button_8);
 		
-		JButton btnNewButton_12 = new JButton("New button");
-		btnNewButton_12.setBounds(30, 508, 117, 25);
-		contentPane.add(btnNewButton_12);
+		JButton button_9 = new JButton("421");
+		button_9.setBounds(170, 109, 117, 108);
+		contentPane.add(button_9);
 		
-		JButton btnNewButton_13 = new JButton("New button");
-		btnNewButton_13.setBounds(184, 101, 117, 25);
-		contentPane.add(btnNewButton_13);
+		JButton button_10 = new JButton("431");
+		button_10.setBounds(312, 109, 117, 108);
+		contentPane.add(button_10);
 		
-		JButton btnNewButton_14 = new JButton("New button");
-		btnNewButton_14.setBounds(328, 101, 117, 25);
-		contentPane.add(btnNewButton_14);
+		JButton button_11 = new JButton("441");
+		button_11.setBounds(456, 109, 117, 108);
+		contentPane.add(button_11);
 		
-		JButton btnNewButton_15 = new JButton("New button");
-		btnNewButton_15.setBounds(469, 101, 117, 25);
-		contentPane.add(btnNewButton_15);
+		JButton button_12 = new JButton("416");
+		button_12.setBounds(27, 262, 117, 98);
+		contentPane.add(button_12);
+		
+		JButton button_13 = new JButton("426");
+		button_13.setBounds(170, 262, 117, 98);
+		contentPane.add(button_13);
+		
+		JButton button_14 = new JButton("436");
+		button_14.setBounds(312, 262, 117, 98);
+		contentPane.add(button_14);
+		
+		JButton button_15 = new JButton("446");
+		button_15.setBounds(456, 262, 117, 98);
+		contentPane.add(button_15);
 	}
 }
